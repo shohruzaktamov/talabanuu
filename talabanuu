@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALABA NUU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #002147;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #01356b;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #01498c;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        footer {
+            background-color: #002147;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #002147;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TALABA NUU</h1>
+    <p>Yoshlar uchun zamonaviy ta’lim markazi</p>
+</header>
+
+<nav>
+    <a href="#home">Bosh sahifa</a>
+    <a href="#about">Biz haqimizda</a>
+    <a href="#faculties">Fakultetlar</a>
+    <a href="#news">Yangiliklar</a>
+    <a href="#contact">Bog‘lanish</a>
+</nav>
+
+<section id="home">
+    <h2>Bosh sahifa</h2>
+    <p>TALABA NUU – bu o‘quvchilar va talabalar uchun zamonaviy ta'lim resurslari bilan boyitilgan o‘quv platforma. Biz bilimli va faollikni qadrlaymiz.</p>
+</section>
+
+<section id="about">
+    <h2>Biz haqimizda</h2>
+    <p>Markazimiz 2024-yilda tashkil topgan bo‘lib, yoshlar bilimini oshirish, ilm-fanga mehr uyg‘otish va amaliy ko‘nikmalarni rivojlantirishga qaratilgan.</p>
+</section>
+
+<section id="faculties">
+    <h2>Fakultetlar</h2>
+    <ul>
+        <li>Geologiya fakulteti</li>
+        <li>Axborot texnologiyalari fakulteti</li>
+        <li>Iqtisodiyot fakulteti</li>
+        <li>Fizika-matematika fakulteti</li>
+    </ul>
+</section>
+
+<section id="news">
+    <h2>Yangiliklar</h2>
+    <p>📌 2025-yilgi qabul kampaniyasi boshlandi!</p>
+    <p>📌 Geologiya fakultetida yangi laboratoriya ochildi.</p>
+</section>
+
+<section id="contact">
+    <h2>Bog‘lanish</h2>
+    <p>Email: info@talabanuu.uz</p>
+    <p>Telefon: +998 90 123 45 67</p>
+    <p>Manzil: Toshkent shahri, Talabalar ko‘chasi, 10-uy</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 TALABA NUU. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
